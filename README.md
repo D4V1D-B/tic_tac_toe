@@ -1,4 +1,4 @@
-# Tic_Tac_Toe
+# Tic Tac Toe
 Ce projet est basé sur le jeu Tic Tac toe
 
 <div id="header" align="center">
