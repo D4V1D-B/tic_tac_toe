@@ -1,10 +1,13 @@
 class Board():
     def __init__(self) -> None:
-        pass
+        self.board = self.makeBoard()
 
     def __str__(self) -> str:
-        pass
+        return self.board
 
-    def makeBoard():
-        pass
-    
+    def makeBoard(self):
+        plateau = []
+        ligne = [' ', ' ', ' ']
+        for x in range(3):
+            plateau.append(ligne)
+        return plateau
